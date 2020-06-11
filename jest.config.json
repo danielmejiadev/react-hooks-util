@@ -1,0 +1,29 @@
+{
+	"moduleFileExtensions": [
+		"ts",
+		"tsx",
+		"js",
+		"jsx",
+		"json",
+		"node"
+	],
+	"moduleDirectories": [
+		"node_modules",
+		"src"
+	],
+	"transform": {
+		"^.+\\.[t|j]sx?$": "babel-jest"
+	},
+	"coveragePathIgnorePatterns": [
+		"/node_modules/",
+		"/jest"
+	],
+	"collectCoverageFrom": [
+		"src/**/*.{js,jsx,ts,tsx}"
+  ],
+	"coverageReporters": [
+		"lcov",
+		"html",
+		"text"
+	]
+}
