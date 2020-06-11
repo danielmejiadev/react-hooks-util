@@ -1,5 +1,5 @@
 {
-  "name": "react-hooks",
+  "name": "react-hooks-util",
   "version": "0.1.0",
   "description": "A set of useful custom  and reusable hooks for react",
   "main": "dist/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielmejiadev/react-hooks.git"
+    "url": "git+https://github.com/danielmejiadev/react-hooks-util.git"
   },
   "keywords": [
     "react",
@@ -25,9 +25,9 @@
   "author": "Daniel Mejia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danielmejiadev/react-hooks/issues"
+    "url": "https://github.com/danielmejiadev/react-hooks-util/issues"
   },
-  "homepage": "https://github.com/danielmejiadev/react-hooks#readme",
+  "homepage": "https://github.com/danielmejiadev/react-hooks-utils#readme",
   "devDependencies": {
     "@babel/cli": "7.10.1",
     "@babel/core": "7.6.2",
