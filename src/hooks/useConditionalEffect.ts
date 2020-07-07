@@ -15,8 +15,10 @@ export function useConditionalEffect(
   const memoizeCallback = React.useCallback(callback, dependecies);
   React.useEffect(() => {
     if (condition) {
-      memoizeCallback();
+      return memoizeCallback();
     }
+
+    return undefined;
   }, [memoizeCallback, condition]);
 }
 
