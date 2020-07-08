@@ -1,6 +1,6 @@
 {
   "name": "react-hooks-util",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "A set of useful custom  and reusable hooks for react",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
